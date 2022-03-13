@@ -3,7 +3,7 @@ env:
   NAMESPACE: Boss
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest 
     steps:
     - uses: actions/checkout@master
     # Add the JFrog CLI      
